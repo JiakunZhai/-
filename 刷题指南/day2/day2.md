@@ -25,10 +25,10 @@
 
    **使用`getline`分割字符串**
 
-   在 C++ 中，没有内置的直接方法来按特定字符（如“-”）分割字符串，但你可以通过一些简单的代码来实现这个功能。以下是一个示例，展示了如何使用 `std::istringstream` 和 `std::getline` 来按照“-”字符分割一个字符串：
+   在 C++ 中，没有内置的直接方法来按特定字符（如``'-'``）分割字符串，但你可以通过一些简单的代码来实现这个功能。以下是一个示例，展示了如何使用 `std::istringstream` 和 `std::getline` 来按照“-”字符分割一个字符串：
 
-   ```
-   cppCopy Code#include <iostream>
+   ```cpp
+   #include <iostream>
    #include <sstream>
    #include <vector>
    #include <string>
